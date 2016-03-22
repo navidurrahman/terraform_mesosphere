@@ -25,16 +25,16 @@ variable "download_url" {
 variable "coreos_ami" {
   description           = "CoreOS AMI to launch the instances"
   default = {
-    sa-east-1           = "ami-487aff24"
-    us-east-1           = "ami-1a642670"
-    ap-southeast-2      = "ami-5c267e3f"
-    ap-southeast-1      = "ami-6ec7070d"
-    us-west-2           = "ami-e0342681"
-    ap-northeast-1      = "ami-cde8c7a3"
-    us-gov-west-1       = "ami-57972a36"
     eu-west-1           = "ami-55d20b26"
-    us-west-1           = "ami-23c0a943"
-    eu-central-1        = "ami-9f2f32f3"
+    us-west-2           = "ami-00ebfc61"
+    sa-east-1           = "ami-154af179"
+    us-east-1           = "ami-37bdc15d"
+    ap-southeast-2      = "ami-f35b0590"
+    ap-southeast-1      = "ami-da67a0b9"
+    ap-northeast-1      = "ami-84e0c7ea"
+    us-gov-west-1       = "ami-05bc0164"
+    us-west-1           = "ami-27553a47"
+    eu-central-1        = "ami-fdd4c791"
   }
 }
 
